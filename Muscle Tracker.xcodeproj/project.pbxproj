@@ -15,6 +15,7 @@
 		4C3F8A572B20F82200CA437D /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A562B20F82200CA437D /* PreviewData.swift */; };
 		4C3F8A5A2B20F97F00CA437D /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */; };
 		4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */; };
+		4C3F8A5E2B20FA1800CA437D /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4C3F8A562B20F82200CA437D /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
 		4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */,
 				4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */,
+				4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3F8A572B20F82200CA437D /* PreviewData.swift in Sources */,
+				4C3F8A5E2B20FA1800CA437D /* WorkoutDetailView.swift in Sources */,
 				4C3F8A552B20F80D00CA437D /* Model.swift in Sources */,
 				4C3F8A5A2B20F97F00CA437D /* WorkoutListView.swift in Sources */,
 				4C3F8A462B20F5F500CA437D /* ContentView.swift in Sources */,
