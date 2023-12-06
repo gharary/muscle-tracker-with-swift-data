@@ -47,6 +47,9 @@ struct WorkoutDetailView: View {
                     }
                 }
             }
+            .sheet(isPresented: $isAddingData) {
+                AddWorkoutDetailView(workoutType: workoutType, dismiss: $isAddingData)
+            }
     }
 }
 #Preview {

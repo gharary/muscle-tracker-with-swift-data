@@ -16,6 +16,7 @@
 		4C3F8A5A2B20F97F00CA437D /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */; };
 		4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */; };
 		4C3F8A5E2B20FA1800CA437D /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */; };
+		4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
 		4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 		4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */,
 				4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */,
 				4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */,
+				4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				4C3F8A462B20F5F500CA437D /* ContentView.swift in Sources */,
 				4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */,
 				4C3F8A442B20F5F500CA437D /* Muscle_TrackerApp.swift in Sources */,
+				4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
