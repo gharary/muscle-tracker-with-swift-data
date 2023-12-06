@@ -28,6 +28,9 @@ struct WorkoutListView: View {
             .navigationTitle("Workout Types")
             .searchable(text: $searchText)
         }
+        .sheet(isPresented: $isAddingData) {
+            AddWorkoutView()
+        }
     }
     
     var searchResults: [WorkoutType] {
