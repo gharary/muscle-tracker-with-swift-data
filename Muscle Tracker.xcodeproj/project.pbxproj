@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C3F8A442B20F5F500CA437D /* Muscle_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A432B20F5F500CA437D /* Muscle_TrackerApp.swift */; };
-		4C3F8A462B20F5F500CA437D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A452B20F5F500CA437D /* ContentView.swift */; };
 		4C3F8A4A2B20F5F500CA437D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F8A492B20F5F500CA437D /* Assets.xcassets */; };
 		4C3F8A4D2B20F5F500CA437D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F8A4C2B20F5F500CA437D /* Preview Assets.xcassets */; };
 		4C3F8A552B20F80D00CA437D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A542B20F80D00CA437D /* Model.swift */; };
@@ -17,12 +16,12 @@
 		4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */; };
 		4C3F8A5E2B20FA1800CA437D /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */; };
 		4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */; };
+		4C3F8A622B20FB3400CA437D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A612B20FB3400CA437D /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C3F8A402B20F5F500CA437D /* Muscle Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muscle Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3F8A432B20F5F500CA437D /* Muscle_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muscle_TrackerApp.swift; sourceTree = "<group>"; };
-		4C3F8A452B20F5F500CA437D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C3F8A492B20F5F500CA437D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3F8A4C2B20F5F500CA437D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C3F8A542B20F80D00CA437D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 		4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutDetailView.swift; sourceTree = "<group>"; };
+		4C3F8A612B20FB3400CA437D /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,6 @@
 				4C3F8A582B20F96C00CA437D /* Views */,
 				4C3F8A532B20F7FA00CA437D /* DataModels */,
 				4C3F8A432B20F5F500CA437D /* Muscle_TrackerApp.swift */,
-				4C3F8A452B20F5F500CA437D /* ContentView.swift */,
 				4C3F8A492B20F5F500CA437D /* Assets.xcassets */,
 				4C3F8A4B2B20F5F500CA437D /* Preview Content */,
 			);
@@ -97,6 +96,7 @@
 				4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */,
 				4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */,
 				4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */,
+				4C3F8A612B20FB3400CA437D /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 				4C3F8A5E2B20FA1800CA437D /* WorkoutDetailView.swift in Sources */,
 				4C3F8A552B20F80D00CA437D /* Model.swift in Sources */,
 				4C3F8A5A2B20F97F00CA437D /* WorkoutListView.swift in Sources */,
-				4C3F8A462B20F5F500CA437D /* ContentView.swift in Sources */,
+				4C3F8A622B20FB3400CA437D /* ChartView.swift in Sources */,
 				4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */,
 				4C3F8A442B20F5F500CA437D /* Muscle_TrackerApp.swift in Sources */,
 				4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */,
