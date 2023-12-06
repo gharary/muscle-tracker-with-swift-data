@@ -13,7 +13,7 @@ struct Muscle_TrackerApp: App {
     let modelContainer: ModelContainer
     var body: some Scene {
         WindowGroup {
-            ChartView()
+            TabBarView()
         }
         .modelContainer(modelContainer)
     }
