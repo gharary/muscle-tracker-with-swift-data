@@ -27,7 +27,7 @@ struct Muscle_TrackerApp: App {
                 WorkoutData.self
             ])
             let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-            modelContainer = try ModelContainer(for: schema, configurations: [modelConfiguration])
+            modelContainer = try ModelContainer(for: schema, migrationPlan: WorkoutTypeMigrationPlan.self, configurations: [modelConfiguration])
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }

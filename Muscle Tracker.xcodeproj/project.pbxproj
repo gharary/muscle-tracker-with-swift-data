@@ -18,6 +18,7 @@
 		4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */; };
 		4C3F8A622B20FB3400CA437D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A612B20FB3400CA437D /* ChartView.swift */; };
 		4C3F8A642B20FC2500CA437D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8A632B20FC2500CA437D /* TabView.swift */; };
+		4CD5088E2B4AF12400599F24 /* MigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5088D2B4AF12400599F24 /* MigrationPlan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4C3F8A612B20FB3400CA437D /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		4C3F8A632B20FC2500CA437D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		4C3F8A652B20FCAF00CA437D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CD5088D2B4AF12400599F24 /* MigrationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationPlan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				4C3F8A542B20F80D00CA437D /* Model.swift */,
 				4C3F8A562B20F82200CA437D /* PreviewData.swift */,
+				4CD5088D2B4AF12400599F24 /* MigrationPlan.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				4C3F8A622B20FB3400CA437D /* ChartView.swift in Sources */,
 				4C3F8A5C2B20F9D700CA437D /* AddWorkoutView.swift in Sources */,
 				4C3F8A442B20F5F500CA437D /* Muscle_TrackerApp.swift in Sources */,
+				4CD5088E2B4AF12400599F24 /* MigrationPlan.swift in Sources */,
 				4C3F8A642B20FC2500CA437D /* TabView.swift in Sources */,
 				4C3F8A602B20FA5700CA437D /* AddWorkoutDetailView.swift in Sources */,
 			);
