@@ -96,14 +96,22 @@
 		4C3F8A582B20F96C00CA437D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C3F8A612B20FB3400CA437D /* ChartView.swift */,
+				4C3F8A632B20FC2500CA437D /* TabView.swift */,
+				4CD5088C2B4AF04A00599F24 /* WorkoutViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD5088C2B4AF04A00599F24 /* WorkoutViews */ = {
+			isa = PBXGroup;
+			children = (
 				4C3F8A592B20F97F00CA437D /* WorkoutListView.swift */,
 				4C3F8A5B2B20F9D700CA437D /* AddWorkoutView.swift */,
 				4C3F8A5D2B20FA1800CA437D /* WorkoutDetailView.swift */,
 				4C3F8A5F2B20FA5700CA437D /* AddWorkoutDetailView.swift */,
-				4C3F8A612B20FB3400CA437D /* ChartView.swift */,
-				4C3F8A632B20FC2500CA437D /* TabView.swift */,
 			);
-			path = Views;
+			path = WorkoutViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
