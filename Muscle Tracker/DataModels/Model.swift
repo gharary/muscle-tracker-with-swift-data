@@ -49,3 +49,45 @@ enum WorkoutSchemaV1: VersionedSchema {
         }
     }
 }
+
+enum WorkoutSchemaV2: VersionedSchema {
+    static var versionIdentifier = Schema.Version(1,1,0)
+    
+    static var models: [any PersistentModel.Type] {
+        [WorkoutType.self, WorkoutData.self]
+    }
+    
+    @Model
+    class WorkoutType: Hashable {
+        var id: UUID
+        var name: String
+        @Relationship(deleteRule: .cascade,
+        inverse: \WorkoutData.type)
+        var data: [WorkoutData]
+        init(name: String, data: [WorkoutData]) {
+            self.id = UUID()
+            self.name = name
+            self.data = data
+        }
+    }
+    
+    @Model
+    class WorkoutData {
+        var date: Date
+        var weight: Double
+        var rept: Int
+        var type: WorkoutType?
+        
+        init(
+            date: Date,
+            weight: Double,
+            rept: Int,
+            type: WorkoutType
+        ) {
+            self.date = date
+            self.weight = weight
+            self.rept = rept
+            self.type = type
+        }
+    }
+}
